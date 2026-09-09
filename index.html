@@ -3,22 +3,165 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Montoya Ingenieros EIRL | Sitio en construcción</title>
-  <meta name="description" content="Montoya Ingenieros EIRL - Sitio web en construcción.">
-  <style>
-    * { box-sizing: border-box; }
-    html, body { margin: 0; padding: 0; background: #111820; }
-    body { min-height: 100vh; }
-    .page { width: 100%; min-height: 100vh; display: flex; align-items: center; justify-content: center; overflow: hidden; }
-    img { display: block; width: 100%; height: 100vh; object-fit: cover; object-position: center; }
-    @media (max-width: 700px) {
-      img { object-fit: contain; height: auto; min-height: 100vh; background: #111820; }
-    }
-  </style>
+  <meta name="description" content="Montoya Ingenieros EIRL | Constructora e Inmobiliaria">
+  <title>Montoya Ingenieros | Constructora e Inmobiliaria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="page">
-    <img src="assets/montoya-en-construccion.png" alt="Montoya Ingenieros EIRL - Sitio web en construcción">
-  </main>
+
+<header class="header">
+  <div class="container nav">
+    <a href="#inicio" class="brand"><img src="logo.jpg" alt="Montoya Ingenieros"></a>
+    <button class="menu-btn" aria-label="Abrir menú">☰</button>
+    <nav class="menu">
+      <a class="active" href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#estado">Contrataciones con el Estado</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main id="inicio">
+
+  <!-- PORTADA -->
+  <section class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-circle circle-1"></div>
+    <div class="hero-circle circle-2"></div>
+
+    <div class="container hero-layout">
+      <div class="hero-copy">
+        <div class="hero-tag"><span></span> CONSTRUCTORA E INMOBILIARIA</div>
+        <h1>Construimos<br><em>soluciones</em> que<br>generan valor.</h1>
+        <p class="hero-description">
+          Ingeniería, construcción, mantenimiento y soluciones integrales
+          para proyectos públicos y privados.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#contacto" class="btn btn-gold">Solicitar cotización <b>→</b></a>
+          <a href="#servicios" class="btn btn-line">Ver nuestros servicios <b>↗</b></a>
+        </div>
+
+        <div class="hero-trust">
+          <div><strong>01</strong><span>Compromiso<br>profesional</span></div>
+          <div><strong>02</strong><span>Soluciones<br>integrales</span></div>
+          <div><strong>03</strong><span>Orientación<br>a resultados</span></div>
+        </div>
+      </div>
+
+      <div class="hero-brand">
+        <div class="brand-frame">
+          <div class="frame-line"></div>
+          <img src="logo.jpg" alt="Montoya Ingenieros - Constructora e Inmobiliaria">
+        </div>
+        <div class="hero-side-note">
+          <span>MI</span>
+          <p>Ingeniería<br>& construcción</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-cue"><span></span> DESLIZA PARA CONOCERNOS</div>
+  </section>
+
+  <!-- FRANJA DE PROPUESTA DE VALOR -->
+  <section class="value-strip">
+    <div class="container value-grid">
+      <div><span>01</span><p>Construcción<br><small>y ejecución</small></p></div>
+      <div><span>02</span><p>Ingeniería<br><small>y asistencia técnica</small></p></div>
+      <div><span>03</span><p>Mantenimiento<br><small>preventivo y correctivo</small></p></div>
+      <div><span>04</span><p>Sector público<br><small>y privado</small></p></div>
+    </div>
+  </section>
+
+  <section class="section" id="nosotros">
+    <div class="container">
+      <p class="eyebrow dark">MONToya INGENIEROS</p>
+      <h2>Profesionales que convierten necesidades<br>en <span>soluciones concretas.</span></h2>
+      <p class="lead">Desarrollamos servicios con enfoque técnico, responsabilidad y atención a los requerimientos de cada cliente.</p>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="servicios">
+    <div class="container">
+      <p class="eyebrow">NUESTROS SERVICIOS</p>
+      <h2>Soluciones para cada proyecto.</h2>
+      <div class="service-grid">
+        <article><b>01</b><h3>Construcción</h3><p>Ejecución y acondicionamiento de proyectos.</p></article>
+        <article><b>02</b><h3>Ingeniería</h3><p>Asistencia técnica y soluciones especializadas.</p></article>
+        <article><b>03</b><h3>Mantenimiento</h3><p>Conservación, mantenimiento preventivo y correctivo.</p></article>
+        <article><b>04</b><h3>Inmobiliaria</h3><p>Servicios relacionados al desarrollo y gestión inmobiliaria.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="experiencia">
+    <div class="container">
+      <p class="eyebrow dark">EXPERIENCIA</p>
+      <h2>Capacidad y respaldo para cada desafío.</h2>
+      <p class="lead">Aquí mostraremos posteriormente la experiencia real de la empresa, principales clientes, contratos y servicios ejecutados.</p>
+    </div>
+  </section>
+
+  <section class="state-banner" id="estado">
+    <div class="container state-content">
+      <div>
+        <p class="eyebrow">CONTRATACIONES CON EL ESTADO</p>
+        <h2>Una presentación profesional para competir en el mercado público.</h2>
+        <p>Experiencia, capacidad técnica y documentación organizada para participar en oportunidades de contratación pública.</p>
+      </div>
+      <a href="#contacto" class="btn btn-gold">Conocer más →</a>
+    </div>
+  </section>
+
+  <section class="section" id="proyectos">
+    <div class="container">
+      <p class="eyebrow dark">PROYECTOS Y TRABAJOS</p>
+      <h2>Resultados que podemos mostrar.</h2>
+      <div class="project-grid">
+        <div>PROYECTO 01</div><div>PROYECTO 02</div><div>PROYECTO 03</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contacto">
+    <div class="container contact-grid">
+      <div>
+        <p class="eyebrow">CONTACTO</p>
+        <h2>Hablemos de su<br><em>próximo proyecto.</em></h2>
+        <p>Solicite información, cotización o asesoría para su proyecto.</p>
+      </div>
+      <div class="contact-box">
+        <p><strong>WhatsApp</strong><br>+51 XXX XXX XXX</p>
+        <p><strong>Correo electrónico</strong><br>correo@montoyaingenieros.com</p>
+        <p><strong>Ubicación</strong><br>Perú</p>
+        <a class="btn btn-gold full" href="https://wa.me/51XXXXXXXXX" target="_blank">Escribir por WhatsApp →</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-content">
+    <img src="logo.jpg" alt="Montoya Ingenieros">
+    <p>© 2026 Montoya Ingenieros EIRL. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script>
+const button=document.querySelector('.menu-btn');
+const menu=document.querySelector('.menu');
+button.addEventListener('click',()=>menu.classList.toggle('open'));
+document.querySelectorAll('.menu a').forEach(a=>a.addEventListener('click',()=>menu.classList.remove('open')));
+</script>
 </body>
 </html>
